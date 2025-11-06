@@ -26,63 +26,63 @@
       <![CDATA[successfully closed the Db]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-06T10:16:26 IST" name="Suite" finished-at="2025-11-06T10:16:37 IST" duration-ms="11019">
+  <suite started-at="2025-11-06T10:28:45 IST" name="Suite" finished-at="2025-11-06T10:28:55 IST" duration-ms="10152">
     <groups>
       <group name="smoketesting">
         <method signature="CreateCampaignsTest.createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" name="createCampaignsWithMandatoryFieldsTest" class="com.ninja.crm.campaigns.CreateCampaignsTest"/>
         <method signature="CreateProductTest.createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" name="createProductWithMandatoryfieldTest" class="com.ninja.crm.products.CreateProductTest"/>
       </group> <!-- smoketesting -->
     </groups>
-    <test started-at="2025-11-06T10:16:26 IST" name="Test" finished-at="2025-11-06T10:16:37 IST" duration-ms="11019">
+    <test started-at="2025-11-06T10:28:45 IST" name="Test" finished-at="2025-11-06T10:28:55 IST" duration-ms="10152">
       <class name="com.ninja.crm.products.CreateProductTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBS" finished-at="2025-11-06T10:16:26 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:45 IST" name="configBS" finished-at="2025-11-06T10:28:45 IST" duration-ms="12" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully connected to Db]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBT" finished-at="2025-11-06T10:16:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:45 IST" name="configBT" finished-at="2025-11-06T10:28:45 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[precondition ]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBT -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBC" finished-at="2025-11-06T10:16:29 IST" duration-ms="3162" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:45 IST" name="configBC" finished-at="2025-11-06T10:28:48 IST" duration-ms="2570" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully browser open]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:29 IST" name="configBM" finished-at="2025-11-06T10:16:29 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:48 IST" name="configBM" finished-at="2025-11-06T10:28:48 IST" duration-ms="292" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully login]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:29 IST" name="createProductWithMandatoryfieldTest" finished-at="2025-11-06T10:16:32 IST" duration-ms="2542" status="PASS">
+        <test-method signature="createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:48 IST" name="createProductWithMandatoryfieldTest" finished-at="2025-11-06T10:28:50 IST" duration-ms="2598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductWithMandatoryfieldTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:32 IST" name="configAM" finished-at="2025-11-06T10:16:32 IST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:50 IST" name="configAM" finished-at="2025-11-06T10:28:51 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:32 IST" name="configAC" finished-at="2025-11-06T10:16:33 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:51 IST" name="configAC" finished-at="2025-11-06T10:28:51 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:37 IST" name="configAT" finished-at="2025-11-06T10:16:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:55 IST" name="configAT" finished-at="2025-11-06T10:28:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post-condition ]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAT -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:37 IST" name="configAS" finished-at="2025-11-06T10:16:37 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:28:55 IST" name="configAS" finished-at="2025-11-06T10:28:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully closed the Db]]>
@@ -91,29 +91,29 @@
         </test-method> <!-- configAS -->
       </class> <!-- com.ninja.crm.products.CreateProductTest -->
       <class name="com.ninja.crm.campaigns.CreateCampaignsTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:33 IST" name="configBC" finished-at="2025-11-06T10:16:35 IST" duration-ms="1954" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:28:51 IST" name="configBC" finished-at="2025-11-06T10:28:53 IST" duration-ms="1837" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully browser open]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:35 IST" name="configBM" finished-at="2025-11-06T10:16:35 IST" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:28:53 IST" name="configBM" finished-at="2025-11-06T10:28:53 IST" duration-ms="278" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully login]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:35 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2025-11-06T10:16:36 IST" duration-ms="1389" status="PASS">
+        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:28:53 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2025-11-06T10:28:55 IST" duration-ms="1401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignsWithMandatoryFieldsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:36 IST" name="configAM" finished-at="2025-11-06T10:16:37 IST" duration-ms="534" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:28:55 IST" name="configAM" finished-at="2025-11-06T10:28:55 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:37 IST" name="configAC" finished-at="2025-11-06T10:16:37 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:28:55 IST" name="configAC" finished-at="2025-11-06T10:28:55 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->

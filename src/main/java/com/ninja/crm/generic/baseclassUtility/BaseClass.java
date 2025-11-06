@@ -49,9 +49,9 @@ public class BaseClass {
 	@BeforeClass(groups = { "smoketesting", "regression testing" })
 	public void configBC() throws IOException {
 
-		String BROWSER = pu.getDataFromProperties("Browser");
+	//	String BROWSER = pu.getDataFromProperties("Browser");
 //	   String BROWSER=browser;
-//		String BROWSER =System.getProperty("browser");
+		String BROWSER =System.getProperty("browser");
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			ChromeOptions set = new ChromeOptions();
