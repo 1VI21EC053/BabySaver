@@ -9,17 +9,70 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">batch execution</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,790</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test2</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">45</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">69</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">4</th><th class="num">0</th><th class="num">0</th><th class="num">114</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">batch execution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ninja.crm.campaigns.CreateCampaignsTest</td><td><a href="#m0">createCampaignsWithMandatoryFieldsTest</a></td><td rowspan="1">1761644848587</td><td rowspan="1">1262</td></tr><tr><th colspan="4">batch execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.ninja.crm.campaigns.CreateCampaignsTest</td><td><a href="#m1">createCampaignsWithExpectedDateTest</a></td><td rowspan="1">1761644846432</td><td rowspan="1">1412</td></tr><tr class="passedeven"><td><a href="#m2">createCampaignsWithStatusTest</a></td><td rowspan="1">1761644850670</td><td rowspan="1">1368</td></tr><tr class="passedodd"><td rowspan="1">com.ninja.crm.products.CreateProductTest</td><td><a href="#m3">createProductWithMandatoryfieldTest</a></td><td rowspan="1">1761644841123</td><td rowspan="1">2553</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.ninja.crm.products.CreateProductTest</td><td><a href="#m0">configBC</a></td><td rowspan="1">1762404101604</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test2 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.ninja.crm.products.CreateProductTest</td><td><a href="#m1">configAC</a></td><td rowspan="1">1762404101628</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">configAM</a></td><td rowspan="1">1762404101624</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">configBM</a></td><td rowspan="1">1762404101619</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.ninja.crm.products.CreateProductTest</td><td><a href="#m4">createProductWithMandatoryfieldTest</a></td><td rowspan="1">1762404101620</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.ninja.crm.campaigns.CreateCampaignsTest</td><td><a href="#m5">configBC</a></td><td rowspan="1">1762404101604</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="7">com.ninja.crm.campaigns.CreateCampaignsTest</td><td><a href="#m6">configAC</a></td><td rowspan="1">1762404101654</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">configAM</a></td><td rowspan="3">1762404101637</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m8">configAM</a></td></tr><tr class="skippedeven"><td><a href="#m9">configAM</a></td></tr><tr class="skippedeven"><td><a href="#m10">configBM</a></td><td rowspan="3">1762404101648</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m11">configBM</a></td></tr><tr class="skippedeven"><td><a href="#m12">configBM</a></td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">com.ninja.crm.campaigns.CreateCampaignsTest</td><td><a href="#m13">createCampaignsWithExpectedDateTest</a></td><td rowspan="1">1762404101620</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m14">createCampaignsWithMandatoryFieldsTest</a></td><td rowspan="1">1762404101641</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m15">createCampaignsWithStatusTest</a></td><td rowspan="1">1762404101649</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>batch execution</h2><h3 id="m0">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithMandatoryFieldsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	expected [false] but found [true]
-	at com.ninja.crm.campaigns.CreateCampaignsTest.createCampaignsWithMandatoryFieldsTest(CreateCampaignsTest.java:60)
+<h2>Test2</h2><h3 id="m0">com.ninja.crm.products.CreateProductTest#configBC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithExpectedDateTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.ninja.crm.products.CreateProductTest#createProductWithMandatoryfieldTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ninja.crm.products.CreateProductTest#configAC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ninja.crm.products.CreateProductTest#configAM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ninja.crm.products.CreateProductTest#configBM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.ninja.crm.products.CreateProductTest#createProductWithMandatoryfieldTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m5">com.ninja.crm.campaigns.CreateCampaignsTest#configBC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.ninja.crm.campaigns.CreateCampaignsTest#configAC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ninja.crm.campaigns.CreateCampaignsTest#configAM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ninja.crm.campaigns.CreateCampaignsTest#configAM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.ninja.crm.campaigns.CreateCampaignsTest#configAM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.ninja.crm.campaigns.CreateCampaignsTest#configBM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.ninja.crm.campaigns.CreateCampaignsTest#configBM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.ninja.crm.campaigns.CreateCampaignsTest#configBM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithExpectedDateTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithMandatoryFieldsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.ninja.crm.campaigns.CreateCampaignsTest#createCampaignsWithStatusTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;BROWSER&quot; is null
+	at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
