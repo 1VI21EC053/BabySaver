@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+   <listeners>
+	   <listener class-name="com.ninja.crm.listeners.ListenersImplementation">
+	   </listener>
+   </listeners>
+  <test thread-count="5" name="batch execution">
+    <classes>
+      <class name="com.ninja.crm.products.CreateProductTest"/>
+      <class name="com.ninja.crm.campaigns.CreateCampaignsTest"/>
+    </classes>
+  </test> <!-- batch execution -->
+</suite> <!-- Suite -->
+
+
