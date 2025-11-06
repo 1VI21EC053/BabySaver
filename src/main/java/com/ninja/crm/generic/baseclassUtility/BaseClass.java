@@ -51,7 +51,7 @@ public class BaseClass {
 
 	//	String BROWSER = pu.getDataFromProperties("Browser");
 //	   String BROWSER=browser;
-		String BROWSER =System.getProperty("browser");
+		String BROWSER =System.getProperty("BROWSER","chrome");
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			ChromeOptions set = new ChromeOptions();

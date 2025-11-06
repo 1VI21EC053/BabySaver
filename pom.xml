@@ -60,6 +60,9 @@
           <suiteXmlFiles>
             <suiteXmlFile>grouptesting.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <systemPropertyVariables>
+            <BROWSER>${BROWSER}</BROWSER>
+          </systemPropertyVariables>
         </configuration>
       </plugin>
 </plugins>	
