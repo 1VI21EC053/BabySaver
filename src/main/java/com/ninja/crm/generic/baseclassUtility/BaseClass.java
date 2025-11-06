@@ -94,7 +94,7 @@ public class BaseClass {
 	@AfterMethod(groups = { "smoketesting", "regression testing" })
 	public void configAM() {
 		HomePage hp = new HomePage(driver);
-		hp.getProfileIcon().click();
+//		hp.getProfileIcon().click();
 		hp.getLogoutButton().click();
 	}
 

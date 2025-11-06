@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[successfully connected to Db]]>
@@ -8,10 +8,16 @@
       <![CDATA[precondition ]]>
     </line>
     <line>
-      <![CDATA[precondition ]]>
+      <![CDATA[successfully browser open]]>
     </line>
     <line>
-      <![CDATA[post-condition ]]>
+      <![CDATA[successfully login]]>
+    </line>
+    <line>
+      <![CDATA[successfully browser open]]>
+    </line>
+    <line>
+      <![CDATA[successfully login]]>
     </line>
     <line>
       <![CDATA[post-condition ]]>
@@ -20,121 +26,63 @@
       <![CDATA[successfully closed the Db]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-11-06T10:11:41 IST" name="Suite" finished-at="2025-11-06T10:11:41 IST" duration-ms="69">
+  <suite started-at="2025-11-06T10:16:26 IST" name="Suite" finished-at="2025-11-06T10:16:37 IST" duration-ms="11019">
     <groups>
-      <group name="regression testing">
-        <method signature="CreateCampaignsTest.createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" name="createCampaignsWithExpectedDateTest" class="com.ninja.crm.campaigns.CreateCampaignsTest"/>
-        <method signature="CreateCampaignsTest.createCampaignsWithStatusTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" name="createCampaignsWithStatusTest" class="com.ninja.crm.campaigns.CreateCampaignsTest"/>
-      </group> <!-- regression testing -->
       <group name="smoketesting">
         <method signature="CreateCampaignsTest.createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" name="createCampaignsWithMandatoryFieldsTest" class="com.ninja.crm.campaigns.CreateCampaignsTest"/>
-        <method signature="CreateProductTest.createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" name="createProductWithMandatoryfieldTest" class="com.ninja.crm.products.CreateProductTest"/>
+        <method signature="CreateProductTest.createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" name="createProductWithMandatoryfieldTest" class="com.ninja.crm.products.CreateProductTest"/>
       </group> <!-- smoketesting -->
     </groups>
-    <test started-at="2025-11-06T10:11:41 IST" name="Test2" finished-at="2025-11-06T10:11:41 IST" duration-ms="45">
+    <test started-at="2025-11-06T10:16:26 IST" name="Test" finished-at="2025-11-06T10:16:37 IST" duration-ms="11019">
       <class name="com.ninja.crm.products.CreateProductTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configBS" finished-at="2025-11-06T10:11:41 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBS" finished-at="2025-11-06T10:16:26 IST" duration-ms="13" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully connected to Db]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configBT" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBT" finished-at="2025-11-06T10:16:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[precondition ]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBT -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configBC" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:26 IST" name="configBC" finished-at="2025-11-06T10:16:29 IST" duration-ms="3162" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[successfully browser open]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configBM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:29 IST" name="configBM" finished-at="2025-11-06T10:16:29 IST" duration-ms="238" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[successfully login]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="createProductWithMandatoryfieldTest" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="createProductWithMandatoryfieldTest()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:29 IST" name="createProductWithMandatoryfieldTest" finished-at="2025-11-06T10:16:32 IST" duration-ms="2542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductWithMandatoryfieldTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configAM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:32 IST" name="configAM" finished-at="2025-11-06T10:16:32 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configAC" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:32 IST" name="configAC" finished-at="2025-11-06T10:16:33 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configAT" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:37 IST" name="configAT" finished-at="2025-11-06T10:16:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post-condition ]]>
             </line>
           </reporter-output>
         </test-method> <!-- configAT -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@43f02ef2]" started-at="2025-11-06T10:11:41 IST" name="configAS" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninja.crm.products.CreateProductTest@4681c175]" started-at="2025-11-06T10:16:37 IST" name="configAS" finished-at="2025-11-06T10:16:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[successfully closed the Db]]>
@@ -142,188 +90,34 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.ninja.crm.products.CreateProductTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2025-11-06T10:11:41 IST" name="Test1" finished-at="2025-11-06T10:11:41 IST" duration-ms="69">
       <class name="com.ninja.crm.campaigns.CreateCampaignsTest">
-        <test-method is-config="true" signature="configBT()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configBT" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:33 IST" name="configBC" finished-at="2025-11-06T10:16:35 IST" duration-ms="1954" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[precondition ]]>
+              <![CDATA[successfully browser open]]>
             </line>
           </reporter-output>
-        </test-method> <!-- configBT -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configBC" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configBM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:35 IST" name="configBM" finished-at="2025-11-06T10:16:35 IST" duration-ms="294" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[successfully login]]>
+            </line>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithExpectedDateTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="createCampaignsWithExpectedDateTest" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignsWithExpectedDateTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configAM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configBM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="createCampaignsWithMandatoryFieldsTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:35 IST" name="createCampaignsWithMandatoryFieldsTest" finished-at="2025-11-06T10:16:36 IST" duration-ms="1389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignsWithMandatoryFieldsTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configAM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:36 IST" name="configAM" finished-at="2025-11-06T10:16:37 IST" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configBM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createCampaignsWithStatusTest()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="createCampaignsWithStatusTest" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "BROWSER" is null
-at com.ninja.crm.generic.baseclassUtility.BaseClass.configBC(BaseClass.java:56)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCampaignsWithStatusTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configAM" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configAC" finished-at="2025-11-06T10:11:41 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:16:37 IST" name="configAC" finished-at="2025-11-06T10:16:37 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAT()[pri:0, instance:com.ninja.crm.campaigns.CreateCampaignsTest@14028087]" started-at="2025-11-06T10:11:41 IST" name="configAT" finished-at="2025-11-06T10:11:41 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[post-condition ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- configAT -->
       </class> <!-- com.ninja.crm.campaigns.CreateCampaignsTest -->
-    </test> <!-- Test1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

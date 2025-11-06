@@ -27,7 +27,7 @@ public class WebDriverUtilities {
 	//Action
 	public void moveToElement(WebDriver driver, WebElement ele) {
 		Actions a = new Actions(driver);
-		a.moveToElement(ele).perform();
+		a.moveToElement(ele).click().perform();
 	}
 	//Dropdown
 	public void selectOptionByValue( WebElement ele,String value) {
